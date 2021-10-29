@@ -1,0 +1,232 @@
+/* reset CSS */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+margin: 0;
+padding: 0;
+}
+body {
+margin: 0px;
+padding: 0px;
+font-family: 'Poppins', sans-serif;
+}
+
+/* bagian navbar */
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  background-color: #FAFFEE;
+  margin-bottom: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px 16px 0px 16px;
+  text-decoration: none;
+  color: #886f6f;
+  font-size: 15px;
+  font-weight: 500;
+}
+.navbar {
+  background-color: #FAFFEE;
+}
+.logo img {
+    float: left;
+    margin: 10px 10px 0px 40px;
+} 
+.logo a {
+  text-decoration: none;
+}
+.menu {
+    float: right;
+    padding: 30px 40px 20px 30px;
+}
+/* bagian header */
+#cabinet {
+  margin: 80px 0px 0px 0px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+  color: #FFFFFF;
+}
+.background-header {
+  position: relative;
+  width: 100%;
+  height: 92vh;
+  left: 0;
+  bottom: 0;
+  background: url(../asset/bg\ hijau\ polos.png);
+  background-attachment: fixed;
+}
+#awal .wave {
+  position: absolute;
+  background: url(../asset/gelombang_cabinet_4.png);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 167px;
+  animation: animate 7s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 1600px;
+  }
+}
+@keyframes animate-reverse {
+  0% {
+    background-position:  1600px;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+#awal .wave:before {
+  content: '';
+  position: absolute;
+  background: url(../asset/gelombang_cabinet_4.png);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 167px;
+  opacity: 0.6;
+  animation: animate-reverse 8s linear infinite;
+}
+.toon-cabinet {
+  padding-top: 80px;
+  margin-left: 60px;
+}
+.isi-cabinet {
+  margin: 0px 0px 0px 100px;
+  padding-top: 100px;
+  width: 700px;
+}
+.isi-cabinet h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.isi-cabinet p {
+  font-size: 30px;
+}
+/* Departemen */
+#departemen {
+  margin-top: 120px;
+  height: 4700px;
+  background-image: url("../asset/bg_cabinet.png");
+  background-size: 100% 100%;
+
+}
+.title-departemen h1 {
+  color: #886f6f;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 60px;
+  border-bottom: 5px solid #fccb4f;
+  text-align: center;
+  transition: 1s;
+}
+nav ul li a:hover {
+  border-bottom: 10px solid #fccb4f;
+  border-width: 100px;
+}
+nav ul li .active_nav{
+  border-bottom: 10px solid #fccb4f;
+  border-width: 100px;
+}
+.gambar {
+  border-radius: 180px;
+  margin-bottom: 70px;
+}
+.susunan {
+  text-align: center;
+}
+.susunan1 {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+.susunan1 img {
+  margin-right: 100px;
+}
+.susunan2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+/* prefooter */
+.prefooter {
+  width: 100%;
+  height: 520px;
+  background-image: url("../asset/refooter_3.png");
+  background-size: 100% 100%;
+  font-family: 'Poppins', sans-serif;
+}
+.isi-prefooter {
+  padding: 330px 0px 10px 100px;
+  color: #363636;
+}
+.isi-prefooter h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.isi-prefooter h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+/* bagian footer */
+footer{
+  font-family: 'Poppins', sans-serif;
+  background-color: #636669;
+  width: 100%;
+}
+.footer{  
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-1{
+padding: 20px 20px;
+overflow: hidden;
+width: 60%;
+}
+.footer-2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 60%;
+padding: 20px 100px;
+}
+.footer-2 {
+  margin-left: 60px;
+  color: white;
+}
+.kontak img {
+  margin-right: 10px;
+}
+.copyright{
+background: #636669;
+color: white;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+height: 25px;
+overflow: hidden;
+}

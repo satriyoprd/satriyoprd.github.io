@@ -1,0 +1,232 @@
+/* reset CSS */
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,img {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* bagian navbar */
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  background-color: #faffee;
+  margin-bottom: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0px 16px 0px 16px;
+  text-decoration: none;
+  color: #886f6f;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 1s;
+}
+nav ul li a:hover {
+  border-bottom: 10px solid #fccb4f;
+  border-width: 100px;
+}
+nav ul li .active_nav {
+  border-bottom: 10px solid #fccb4f;
+  border-width: 100px;
+}
+.navbar {
+  background-color: #faffee;
+}
+.logo img {
+  float: left;
+  margin: 10px 10px 0px 40px;
+}
+.logo a {
+  text-decoration: none;
+}
+.menu {
+  float: right;
+  padding: 30px 40px 0px 30px;
+}
+/* Bagian Gallery */
+#gallery {
+  margin-top: 150px;
+  background: url(../asset/bg\ ijo\ gradient\ 2.png);
+  background-size: 100% 100%;
+  height: 270vh;
+  background-repeat: no-repeat;
+}
+.title-gallery h1 {
+  color: #886f6f;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 45%;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #fccb4f;
+  width: 200px;
+}
+.info {
+  height: 100%;
+  width: 100%;
+  font-weight: normal;
+  transition: transform 1s;
+  position: relative;
+}
+.over {
+  background: rgba(136, 111, 111, 0.6);
+  color: #fff;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  font-size: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 90px 120px 0px 20px;
+  display: none;
+}
+.gallery-item:hover .info {
+  transform: translateY(-240px);
+}
+.gallery-item:hover .over {
+  display: block;
+}
+.over1 {
+  background: rgba(136, 111, 111, 0.8);
+  color: #fff;
+  height: 600px;
+  width: 500px;
+  position: absolute;
+  font-size: 35px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 180px 50px 0px 30px;
+  display: none;
+}
+.gallery-item1:hover .info {
+  transform: translateY(-480px);
+}
+.gallery-item1:hover .over1 {
+  display: block;
+}
+.over2 {
+  background: rgba(136, 111, 111, 0.8);
+  color: #fff;
+  height: 1000px;
+  width: 800px;
+  position: absolute;
+  font-size: 45px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 400px 130px 0px 70px;
+  display: none;
+}
+.gallery-item2:hover .info {
+  transform: translateY(-800px);
+}
+.gallery-item2:hover .over2 {
+  display: block;
+}
+.over3 {
+  background: rgba(136, 111, 111, 0.6);
+  color: #fff;
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  font-size: 28px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 150px 80px 0px 60px;
+  display: none;
+}
+.gallery-item3:hover .info {
+  transform: translateY(-330px);
+}
+.gallery-item3:hover .over3 {
+  display: block;
+}
+/* prefooter */
+.prefooter {
+  width: 100%;
+  height: 520px;
+  background-image: url("../asset/refooter\ gallery3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+.isi-prefooter {
+  padding: 330px 0px 10px 100px;
+  color: #363636;
+}
+.isi-prefooter h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.isi-prefooter h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+/* bagian footer */
+footer{
+  font-family: 'Poppins', sans-serif;
+  background-color: #636669;
+  width: 100%;
+}
+.footer{  
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-1{
+padding: 20px 20px;
+overflow: hidden;
+width: 60%;
+}
+.footer-2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 60%;
+padding: 20px 100px;
+}
+.footer-2 {
+  margin-left: 60px;
+  color: white;
+}
+.kontak img {
+  margin-right: 10px;
+}
+.copyright{
+background: #636669;
+color: white;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+height: 25px;
+overflow: hidden;
+}
+
+

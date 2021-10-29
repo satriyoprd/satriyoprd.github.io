@@ -1,0 +1,275 @@
+/* reset CSS */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div, section {
+margin: 0;
+padding: 0;
+}
+body {
+margin: 0px;
+padding: 0px;
+}
+
+/* bagian navbar */
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  background-color: #FAFFEE;
+  margin-bottom: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px 16px 0px 16px;
+  text-decoration: none;
+  color: #886f6f;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 1s;
+}
+nav ul li a:hover {
+  border-bottom: 10px solid #fccb4f;
+  border-width: 100px;
+}
+nav ul li .active_nav {
+  border-bottom: 10px solid #fccb4f;
+  border-width: 100px;
+}
+.navbar {
+  background-color: #FAFFEE;
+}
+.logo img {
+    float: left;
+    margin: 10px 10px 0px 40px;
+} 
+.logo a {
+  text-decoration: none;
+}
+.menu {
+    float: right;
+    padding: 30px 40px 20px 30px;
+}
+
+/* bagian Isi about us */
+.about-us {
+    padding-top: 80px;
+}
+.title-about h1 {
+  color: #FFFFFF;
+  width: 100%;
+  height: 510px;
+  background-image: url("../asset/icon_about1.png");
+  background-size: 90% 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.title-vision {
+  padding: 45px;
+  padding-left: 27%;
+  text-align: center;
+  width: 600px;
+  height: 200px;
+  font-family: 'Poppins', sans-serif;
+}
+.title-vision h1 {
+  color: #8EB042;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: 5px solid #fccb4f;
+}
+.vision-about p {
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: #363636;
+}
+.mision-about {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+} 
+.title-mision h1 {
+  color: #8EB042;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: 5px solid #fccb4f;
+}
+.container-mision {
+  margin-top: 40px;
+  display: flex;
+  padding-left: 27%;
+  padding-right: 27%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container-mision1 {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 150px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card-mision {
+  width: 250px;
+  height: 250px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #363636;
+  background-color: #B8CD75;
+  margin: 10px 10px 10px 10px;
+  padding: 0px 5px 0px 5px;
+  border-radius: 8px;
+}
+.visi-misi {
+  background-image: url("../asset/bg\ about\ new.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+/* bagian tujuan */
+.title-tujuan {
+  padding: 45px;
+  padding-left: 29%;
+  width: 650px;
+  height: 200px;
+  font-family: 'Poppins', sans-serif;
+}
+.title-tujuan h1 {
+  color: #8EB042;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: 5px solid #fccb4f;
+}
+.tujuan-about p {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: #363636;
+}
+
+/* container tujuan dan logo */
+.background {
+  height: 1060px;
+  background-image: url("../asset/bg\ about\ us\ new.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* bagian logo */
+.logo-about {
+  padding: 40px 0px 0px 0px;
+  font-family: 'Poppins', sans-serif;
+}
+.title-logo h1 {
+  color: #8EB042;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: 5px solid #fccb4f;
+}
+.img-logo {
+  padding-top: 30px;
+  text-align: center;
+}
+.arti-logo {
+  width: 550px;
+  height: 50px;
+  color: #363636;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 32%;
+  padding-top: 20px;
+}
+.card-logo {
+  width: 330px;
+  height: 200px;
+  margin: 20px 70px 0px 80px;
+}
+.container-logo {
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+ul.api {
+  margin-left: 30px;
+  list-style-type: disc ;
+  color: #886f6f;
+}
+ul.warna {
+  margin-left: 30px;
+  list-style-type: disc;
+  color: #886f6f;
+}
+.container-logo ul li a {
+  color: #363636;
+  font-weight: 400;
+}
+.card-logo h2 {
+  text-align: center;
+  color: #886f6f;
+  font-weight: 600;
+}
+
+/* bagian prefooter */
+.prefooter {
+  background: linear-gradient(#FAFFEE, #8EB042);
+}
+.prefooter img {
+  width: 100%;
+}
+
+/* bagian footer */
+footer{
+  font-family: 'Poppins', sans-serif;
+  background-color: #636669;
+  width: 100%;
+}
+.footer{  
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-1{
+padding: 20px 20px;
+overflow: hidden;
+width: 40%;
+}
+.footer-2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 60%;
+padding: 20px 100px;
+}
+.footer-2 {
+  margin-left: 60px;
+  color: white;
+}
+.kontak img {
+  margin-right: 10px;
+}
+.copyright{
+background: #636669;
+color: white;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+height: 25px;
+overflow: hidden;
+}

@@ -1,0 +1,358 @@
+/* reset CSS */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+margin: 0;
+padding: 0;
+}
+body {
+margin: 0px;
+padding: 0px;
+font-family: 'Poppins', sans-serif;
+overflow-x: hidden;
+}
+
+/* bagian navbar */
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  background-color: #FAFFEE;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px 16px 0px 16px;
+  text-decoration: none;
+  color: #886f6f;
+  font-size: 15px;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  border-bottom: 20px solid #fccb4f;
+  border-width: 100px;
+}
+nav ul li .active_nav {
+  border-bottom: 20px solid #fccb4f;
+  border-width: 100px;
+}
+.navbar {
+  background-color: #FAFFEE;
+}
+.logo img {
+    float: left;
+    margin: 10px 10px 0px 40px;
+} 
+.logo a {
+  text-decoration: none;
+}
+.menu {
+    float: right;
+    padding: 30px 40px 20px 30px;
+}
+/*header*/
+#article {
+  margin: 80px 0px 0px 0px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+  color: #FFFFFF;
+}
+.background-header {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+  left: 0;
+  bottom: 0;
+  background: url(../asset/bg\ hijau\ polos.png);
+  background-attachment: fixed;
+}
+#awal .wave {
+  position: absolute;
+  background: url(../asset/gelombang_cabinet_4.png);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 167px;
+  animation: animate 7s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 1600px;
+  }
+}
+@keyframes animate-reverse {
+  0% {
+    background-position:  1600px;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+#awal .wave:before {
+  content: '';
+  position: absolute;
+  background: url(../asset/gelombang_cabinet_4.png);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 167px;
+  opacity: 0.6;
+  animation: animate-reverse 8s linear infinite;
+}
+.toon-article {
+  padding-top: 80px;
+  margin-left: 60px;
+}
+.isi-article {
+  margin: 0px 0px 0px 100px;
+  padding-top: 100px;
+  width: 700px;
+}
+.isi-article h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.isi-article p {
+  font-size: 25px;
+}
+/* bagian logo */
+.article{
+  height: 1250px;
+  width: 100%;
+  background-image: url("../images/article2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  margin-top: 150px;
+  padding-left: 50px;
+}
+.article .title h2 {
+font-size: 50px;
+line-height: 55px;
+color:#ffc221;
+font-weight: 500;
+text-transform: uppercase;
+margin-bottom: 27px;
+position: relative;
+padding-bottom: 8px;
+text-align: center;
+}
+.container{
+  position: relative;
+  top: 120px;
+  margin-left: 10px;
+  width: 100%;
+  height: 0 auto;
+}
+.gallery {
+display: grid;
+grid-template-columns: 25% 25% 45%;
+grid-template-rows: 400px 400px ;
+grid-gap: 20px;
+padding: 10px;
+text-align: center;
+width: 100%;
+height: auto;
+}
+.gallery .item img{
+  height: 120px;
+  width: 120px;
+}
+.gallery .item1 img{
+  height: 345px;
+  width: 300px;
+}
+.gallery .item2 img{
+  height: 345px;
+  width: 300px;
+}
+.gallery .item3 img{
+  height: 345px;
+  width: 300px;
+}
+.gallery .item4 img{
+  height: 345px;
+  width: 300px;
+}
+.gallery .article5 .item5{
+  height: 600px;
+}
+.gallery .item5 img{
+  height: 760px;
+  width: 540px;
+}
+.gallery .items{
+  padding: 20px 10px 30px;
+  background-color: rgba(19, 20, 25,0.3);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+  max-height: 1000px;
+  position: relative;
+}
+.gallery .article1{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.gallery .article2{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.gallery .article3{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.gallery .article4{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+.gallery .article5{
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  height: 400px;
+}
+.gallery .article-5{
+  padding: 20px 10px 10px;
+  background-color: rgba(120, 125, 151, 0.3);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+  height: auto;    
+}
+.article-5 .pic {
+  padding: 20px 10px 30px;
+  background-color: rgba(19, 20, 25,0.3);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+.article-5 .pic img{
+  width: 500px;
+  height: 500px;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+  transition:all 1s;
+  overflow: hidden;
+  position: relative;
+}
+
+.items button{
+    margin-top: 5px;
+  border-radius: 10px;
+  background-color: #886f6f;
+  width: 200px;
+  text-align: center;
+  border: none;
+  font-weight: 300;
+  color: white;
+}
+.title-articel{
+  position: relative;
+  top: -140px;
+}
+.title-articel h1{
+  color: #886f6f;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 60px;
+  border-bottom: 5px solid #fccb4f;
+  text-align: center;
+  transition: 1s;
+}
+/* bagian prefooter */
+.prefooter {
+  margin-bottom: 0;
+}
+.prefooter img {
+  width: 100%;
+}
+
+/* prefooter */
+.prefooter {
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/refooter 3.png");
+  background-size: 100% 100%;
+  font-family: 'Poppins', sans-serif;
+}
+.isi-prefooter {
+  padding: 330px 0px 10px 100px;
+  color: #363636;
+}
+.isi-prefooter h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.isi-prefooter h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+/* bagian footer */
+footer{
+  font-family: 'Poppins', sans-serif;
+  background-color: #636669;
+  width: 100%;
+  height: 70vh;
+}
+.footer{  
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-1{
+padding: 20px 20px;
+overflow: hidden;
+width: 60%;
+}
+.footer-2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 60%;
+padding: 20px 100px;
+}
+.footer-2 {
+  margin-left: 60px;
+  color: white;
+}
+.kontak img {
+  margin-right: 10px;
+}
+.copyright{
+background: #636669;
+color: white;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+height: 20px;
+overflow: hidden;
+}

@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box !important;
+    overflow-x: hidden;
+  }
+  body {
+      color: #666666;
+      font-size: 14px;
+      font-family: 'poppins', sans-serif;
+      line-height: 1.80857;
+      font-weight: normal;
+      overflow-x: hidden;
+  }
+  html {
+      scroll-behavior: smooth;
+  }
+  /* navbar */
+  .navbar1 .navigation .logo{
+     font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    justify-content: space-around;
+    flex-direction: column;
+    
+  }
+
+  .navbar1 {
+    display: flex;
+    background-color: #FAFFEE;
+    justify-content: space-around;
+    padding: 10px 0;
+    position: fixed;
+    height: 80px;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+  }
+  i img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+  }
+  .logo{
+    position: relative;
+    left: -50px;
+  }
+  .navigation{
+    padding: 0;
+    position: relative;
+    right: -240px;
+    width: 30%;
+  }
+  .navigation ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin-top: 40px;
+    height: 50px;
+    justify-content: space-around;
+    color: #886F6F;
+    overflow: hidden;
+  }
+  .navigation ul li a{
+    color: #886F6F;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 8px 8px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .navigation ul li a:hover{
+  border-bottom: 2px solid #fccb4f;
+  
+  }
+  .navigation ul li .active_nav{
+  border-bottom: 2px solid #fccb4f;
+  
+  }
+  .sosmed{
+    position: relative;
+    right: -50px;
+  }
+  .sosmed ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    justify-content: space-around;
+    color: #886F6F;
+    overflow: hidden; 
+  }
+  .sosmed ul li a img{
+      width: 40px;
+      height: 40px;
+      padding: 8px;
+  }
+  .sosmed .youtube{
+    width: 50px;
+  }
+  /* Header */
+  .bg_inner{
+    background-image: url("../images/bg home 1.png");
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    
+  }
+
+  .image_hero{
+    height: 80vh;
+    float: right;
+    margin-top: 130px;
+    overflow: hidden;
+
+  }
+  .image_hero img{
+    top: 100px;
+    height: 70vh;
+  }
+  
+  .cap_carrousel {
+    float: left;
+    text-align: left;
+    color: #363636;
+    top: 230px;
+    margin-left: -120px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+  .cap_carrousel h5{
+    font-size: 20px ;
+    font-weight: 400;
+  }
+  .cap_carrousel h1{
+    font-size: 30px ;
+    font-weight: 700;
+  }
+  .cap_carrousel p{
+    font-size: 15px ;
+    font-weight: 400;
+  }
+  .cap_carrousel button{
+      border-radius: 10px;
+      background-color: #Fccb4f;
+      width: 200px;
+      text-align: center;
+      border: none;
+      font-weight: 300;
+      color: white;
+  }
+  .cap_carrousel button:hover{
+      background-color: wheat;
+  }
+  .carousel-indicators{
+    z-index: 100;
+  }
+  .carousel-indicators button{
+   text-align: center;
+  }
+  .button1{
+    background-color: blueviolet;
+    
+  }
+  .cap_carrousel2 {
+    text-align: center;
+    color: #363636;
+    top: 100px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+  }
+  .cap_carrousel2 h5{
+    font-size: 15px ;
+    font-weight: 400;
+  }
+  .cap_carrousel2 h1{
+    font-size: 25px ;
+    font-weight: 700;
+  }
+  .image_hero2{
+    height: 100vh;
+    text-align: center;
+    margin-top: 150px;
+    overflow: hidden;
+    width: 900px;
+    position: relative;
+    right: -145px;
+  }
+  .image_hero2 img{
+    top: 210px;
+    height: 65vh;
+    width: 100px;
+  }
+  .slide_youtube {
+    float: left;
+    position: relative;
+    top: 170px;
+    height: 100vh;
+    overflow: hidden;
+    right: -90px;
+  }
+  .cap_carrousel3{
+    position: relative;
+    left: 200px;
+    top: 200px ;
+    color: #363636;
+    text-align: left;
+  }
+  .cap_carrousel3 h5{
+    font-size: 35px ;
+    font-weight: 600;
+    
+  }
+  .cap_carrousel3 p{
+    font-size: 16px ;
+    font-weight: 500;
+    text-align: justify;
+    width: 500px;
+  }
+  .cap_carrousel3 button{
+    border-radius: 10px;
+    background-color: #Fccb4f;
+    width: 200px;
+    text-align: center;
+    border: none;
+    font-weight: 300;
+    color: white;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index: 2;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background-image: url("../images/bg home 2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.dot-container button{
+  border: none;
+  background: transparent;
+}
+.dot-container span{
+  opacity: 0.5;
+}
+.active{
+ opacity: 1;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fcd572;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}

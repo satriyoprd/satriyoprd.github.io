@@ -1,0 +1,186 @@
+/* reset CSS */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+margin: 0;
+padding: 0;
+}
+body {
+margin: 0px;
+padding: 0px;
+font-family: 'Poppins', sans-serif;
+overflow-x: hidden;
+}
+
+/* bagian navbar */
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  background-color: #FAFFEE;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px 16px 0px 16px;
+  text-decoration: none;
+  color: #886f6f;
+  font-size: 15px;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  border-bottom: 20px solid #fccb4f;
+  border-width: 100px;
+}
+nav ul li .active_nav {
+  border-bottom: 20px solid #fccb4f;
+  border-width: 100px;
+}
+.navbar {
+  background-color: #FAFFEE;
+}
+.logo img {
+    float: left;
+    margin: 10px 10px 0px 40px;
+} 
+.logo a {
+  text-decoration: none;
+}
+.menu {
+    float: right;
+    padding: 30px 40px 20px 30px;
+}
+
+/* bagian Isi about us */
+#detail-artikel{
+  margin-top: 20px;
+}
+.container{
+  margin-top: 30px;
+  padding: 20px 20px;
+  width: 100%;
+  height: 0 auto;
+}
+.container .row{
+  margin-top: 90px;
+}
+.container .row .img_artikel{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+}
+.img_artikel{
+  width: 80%;
+  height: 0 auto;
+}
+.img_artikel h2{
+  right: -60px;
+  position: relative;
+}
+.img_artikel span{
+  right: -60px;
+  position: relative;
+
+}
+.img_artikel .img_berita{
+  position: relative;
+  right: -120px;
+}
+.par_artikel{
+  width: 80%;
+  height: 0 auto;
+}
+.par_artikel p{
+  right: -50px;
+  position: relative;
+  width:1100px ;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  text-justify: inter-word;
+  
+
+}
+.img_artikel .img_berita{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.img_artikel .img_berita img{
+  padding: 20px 20px;
+}
+
+/* bagian prefooter */
+.prefooter {
+  width: 100%;
+  height: 520px;
+  background-image: url("../images/refooter 3.png");
+  background-size: 100% 100%;
+  font-family: 'Poppins', sans-serif;
+}
+.isi-prefooter {
+  padding: 300px 0px 10px 100px;
+  color: #363636;
+}
+.isi-prefooter h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.isi-prefooter h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* bagian footer */
+footer{
+  font-family: 'Poppins', sans-serif;
+  background-color: #636669;
+  width: 100%;
+  overflow: hidden;
+}
+.footer{  
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-1{
+padding: 20px 20px;
+overflow: hidden;
+width: 60%;
+}
+.footer-2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 60%;
+padding: 20px 100px;
+}
+.footer-2 {
+  margin-left: 60px;
+  color: white;
+}
+.kontak img {
+  margin-right: 10px;
+}
+.copyright{
+background: #636669;
+color: white;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+height: 25px;
+overflow: hidden;
+}
